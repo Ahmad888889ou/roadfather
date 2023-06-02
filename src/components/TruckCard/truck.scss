@@ -1,0 +1,16 @@
+.container {
+    .row {
+        .col {
+            .mt-3 {
+                .img__container {
+                    // clip-path: circle(40% at 63% 60%);
+                    border-top-left-radius:63% ;
+                    border-bottom-left-radius: 20%;
+                    border-top-right-radius: 19%;
+                    border-bottom-right-radius: 19%;
+                }
+
+            }
+        }
+    }
+}

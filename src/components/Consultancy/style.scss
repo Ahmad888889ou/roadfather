@@ -1,0 +1,20 @@
+.my-5 {
+    .container-fluid {
+        .row {
+            .col {
+              textarea:hover{
+                border-color: #ff6b35;
+              }
+                input:hover {
+                    border-color: #ff6b35;
+                }
+                input:active {
+                    border-color: #ff6b35;
+                }
+                input:focus {
+                    border-color: #ff6b35;
+                }
+            }
+        }
+    }
+}

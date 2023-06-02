@@ -1,0 +1,31 @@
+.container {
+    .row {
+        .col {
+            .service__text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+.card {
+    border-bottom-left-radius: 50px !important;
+    .card-body {
+        a {
+            color: #00BFC7;
+        }
+
+        a:hover {
+            font-size: 18px;
+            color:#00BFC7 ;
+        }
+    }
+}
+.services-card{
+    min-height: 325px;
+}
+
+

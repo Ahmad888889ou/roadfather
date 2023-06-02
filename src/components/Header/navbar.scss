@@ -1,0 +1,25 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 4; 
+
+    .container-fluid {
+        .image__logo {
+            height: 80px;
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+
+            span {
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+.nav-item{
+    .nav-link{
+        cursor: pointer;
+    }
+}

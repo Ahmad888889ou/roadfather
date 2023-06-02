@@ -1,0 +1,21 @@
+$danger:#7BD0D3;
+$warning:#00BFC7;
+$info:#C0DEDE;
+@import "./scss/bootstrap";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color:#f6fff8;
+}
+main{
+  flex: 1 0 auto;
+  background-color:#f6fff8;
+}

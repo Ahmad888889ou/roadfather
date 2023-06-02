@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.carousel-new {
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+    .carousel-inner {
+        .carousel-item {
+            text-align: center;
+
+            img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
